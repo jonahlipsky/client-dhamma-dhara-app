@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Root from './root';
 import configuredStore from './store/store';
-require('dotenv').config()
-
 import * as serviceWorker from './serviceWorker';
 
 document.addEventListener('DOMContentLoaded', () => {

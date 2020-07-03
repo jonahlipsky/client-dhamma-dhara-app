@@ -12,7 +12,7 @@ class App extends React.Component {
   }
 
   componentDidMount(){
-    fetch('/todos')
+    fetch(process.env.REACT_APP_API_ROOT_URL + '/todos')
       .then(response => response.json())
       .then(data => {
         console.log(data)
